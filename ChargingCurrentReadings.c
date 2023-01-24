@@ -1,5 +1,6 @@
 #include "ChargingCurrentReadings.h"
 
+int arr[3] = {0, 0, 0};
 void chargingCurrent (int inputRange[])
 {
     identifyInputRange(inputRange);
