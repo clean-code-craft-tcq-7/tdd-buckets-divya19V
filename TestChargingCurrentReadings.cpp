@@ -4,5 +4,6 @@
 
 
 TEST_CASE("infers the charging current range") {
-  REQUIRE(chargingCurrent(4,5) == (4-5,2));
+  int arr = {4,5};
+  REQUIRE(chargingCurrent(arr)[1] == 2);
 }
