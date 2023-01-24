@@ -4,6 +4,6 @@
 #include "ChargingCurrentReadings.h"
 
 TEST_CASE("infers the charging current range") {
-  int arr[2] = {4,5};
-  REQUIRE(chargingCurrent(arr)[1] == 2);
+  int input[2] = {4,5};
+  REQUIRE(chargingCurrent(input)[1] == 2);
 }
